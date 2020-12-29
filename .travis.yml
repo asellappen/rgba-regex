@@ -14,7 +14,7 @@ language: node_js
 arch:
   - amd64
   - ppc64le
-before_install:
+after_install:
   - npm install --global mocha
 node_js:
   - '6'
